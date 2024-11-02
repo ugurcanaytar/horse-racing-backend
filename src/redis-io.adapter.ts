@@ -24,8 +24,7 @@ export class RedisIoAdapter extends IoAdapter {
     options = {
       ...options,
       cors: {
-        // origin: 'http://localhost:3000',
-        origin: 'https://main.d10bif6dcukhaw.amplifyapp.com/',
+        origin: 'http://localhost:3000',
         methods: ['GET', 'POST'],
         credentials: true,
       },

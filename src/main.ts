@@ -12,8 +12,7 @@ async function bootstrap() {
   await horsesService.seedHorses();
 
   app.enableCors({
-    // origin: 'http://localhost:3000', // Frontend URL
-    origin: 'https://main.d10bif6dcukhaw.amplifyapp.com/', // Frontend URL
+    origin: 'http://localhost:3000', // Frontend URL
     credentials: true,
   });
 
